@@ -1,24 +1,39 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="logo.png" width="30" height="30" alt="Logo">
-    My App
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"></a>
+<nav class="navbar">
+  <div class="navbar-column" id="logo">
+    <a href="#">
+      <img class="logo-png" src="assets/100078_netflix_icon.png">
+    </a>
+  </div>
+  <div class="navbar-column" id="navigation">
+      <ul id="navigation-items">
+        <li>
+          <a href="#">Accueil</a>
+        </li>
+        <li>
+          <a href="#">Série</a>
+        </li>
+        <li>
+          <a href="#">Film</a>
+        </li>
+        <li>
+          <a href="#">Ma liste</a>
+        </li>
+      </ul>
+  </div>
+  <div class="navbar-column" id="other-stuff">
+    <ul id="others-stuff-items">
+      <li>
+        <img style="width: 30px; height: auto;" src="assets/search_icon.png">
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+      <li class="avatar-menu">
+        <div class="avatar-support">
+          <img class="avatar-logo" src="assets/avatar.png">
+        </div>
+        <a type="button" href="#">
+          <img class="down-arrow" src="assets/down_arrow_icon.png">
+        </a>
       </li>
     </ul>
   </div>
-</nav>
-<img src="assets/100078_netflix_icon.png">
 
+</nav>
