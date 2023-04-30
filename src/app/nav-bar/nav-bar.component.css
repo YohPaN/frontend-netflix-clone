@@ -1,13 +1,14 @@
 .navbar{
   display: flex;
-  background-color: black;
+  background-color: rgb(27, 27, 27);
   columns: 3;
-  padding-left: 50px;
+  padding-left: 52px;
   padding-right: 50px;
   left: 0;
   top: 0;
   align-items: center;
-  height: 80px;
+  height: 70px;
+  font-size: 14px;
 }
 
 .navbar-column{
@@ -28,6 +29,7 @@
 
 #navigation{
   flex-grow: 1;
+  padding-left: 10px;
 }
 
 #navigation-items{
