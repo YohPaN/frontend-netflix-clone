@@ -1,14 +1,15 @@
 .navbar{
   display: flex;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(20, 20, 20, 0.2);
   columns: 3;
   padding-left: 52px;
   padding-right: 50px;
-  left: 0;
-  top: 0;
+  position: fixed;
+  top: 0px;
   align-items: center;
   height: 70px;
   font-size: 14px;
+  width: 100vw;
 }
 
 .navbar-column{
