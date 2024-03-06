@@ -1,11 +1,16 @@
-<nav class="navbar">
-  <div class="navbar-column" id="logo">
+<nav>
+  <div class="col" id="logo">
     <a href="#">
-      <img class="logo-png" src="assets/100078_netflix_icon.png">
+      <img class="logo-png" src="assets/100078_netflix_icon.png" alt="netflix logo">
     </a>
   </div>
-  <div class="navbar-column" id="navigation">
-      <ul id="navigation-items">
+
+  <button id="menu-btn">
+    <img class="menu-icon" src="assets/menu.png" alt="menu">
+  </button>
+
+  <div class="col container-sm" id="navigation">
+      <ul id="navigation-items" class="container-width-sm">
         <li>
           <a href="#">Accueil</a>
         </li>
@@ -20,20 +25,15 @@
         </li>
       </ul>
   </div>
-  <div class="navbar-column" id="other-stuff">
-    <ul id="others-stuff-items">
-      <li>
-        <img style="width: 30px; height: auto;" src="assets/search_icon.png">
-      </li>
-      <li class="avatar-menu">
-        <div class="avatar-support">
-          <img class="avatar-logo" src="assets/avatar.png">
-        </div>
-        <a type="button" href="#">
-          <img class="down-arrow" src="assets/down_arrow_icon.png">
-        </a>
-      </li>
-    </ul>
+  <div class="col" id="search-icon">
+    <img class="menu-icon" src="assets/search_icon.png" alt="search">
   </div>
-
+  <div class="col container-sm" id="avatar-menu">
+    <div class="avatar-width container-width-sm">
+      <div class="avatar-support">
+        <img class="menu-icon" src="assets/avatar.png" alt="avatar">
+      </div>
+      <p>{{ yourName }}</p>
+    </div>
+  </div>
 </nav>
