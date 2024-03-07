@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "netflouch"
+  "defaultProject": "netflouch",
+  "cli": {
+    "analytics": false
+  }
 }
